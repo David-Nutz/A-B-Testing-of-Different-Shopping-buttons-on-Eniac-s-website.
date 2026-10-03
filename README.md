@@ -1,8 +1,8 @@
-# A-B-Testing-of-Different-Shopping-buttons-on-Eniac-s-website.
+# A-B-Testing-of-Different-Shopping-Buttons-on-Eniac-s-Website
 
 # Project Overview
 
-The objective of this project was to determine which version of Eniac's "SHOP NOW" button performs best in encouraging visitors to click through to the iPhone shopping page.
+The objective of this project was to determine which version of Eniac's "SHOP NOW" button performs best at encouraging visitors to click through to the iPhone shopping page.
 
 Eniac wanted to increase sales of new iPhone models. Since the homepage prominently features an iPhone and provides visitors with a button to access the shopping page, the design and wording of this button could influence user behaviour.
 
@@ -12,11 +12,11 @@ The analysis investigates whether changing the button colour and wording leads t
 
 Before conducting the experiment, Eniac's homepage received 50,061 visits during the period from October 13 to October 20, 2021. During this period, just under 2% of visitors clicked the "SHOP NOW" button, while the surrounding banner achieved a CTR of approximately 3.5%.
 
-This raised the question of whether the button's visual design or its wording could be discouraging visitors from clicking it.
+This raised the question of whether the button's visual design or wording could be discouraging visitors from clicking it.
 
 # A/B Test
 
-The experiment ran from November 2, 2021 to November 16, 2021. The required sample size was determined using a statistical power of 80% and a minimum detectable effect of 20%. Based on an estimated CTR of 2% and approximately 7 142 daily visitors, the calculated requirement was 19,784 visitors per variation.
+The experiment ran from November 2, 2021, to November 16, 2021. The required sample size was determined using a statistical power of 80% and a minimum detectable effect of 20%. Based on an estimated CTR of 2% and approximately 7,142 daily visitors, the calculated requirement was 19,784 visitors per variation.
 
 # Data
 
@@ -41,16 +41,16 @@ Click-through rate (CTR): The percentage of visitors who clicked the button. A h
 
 # Statistical Analysis
 
-A Chi-square test of independence was used to determine whether the differences in CTR between the four variants were statistically significant.
+A chi-square test of independence was used to determine whether the differences in CTR between the four variants were statistically significant.
 
-H₀: All four versions have the same CTR.
+H₀: All four versions have the same CTR.  
 Hₐ: There is a difference in CTR between the versions.
 
 The significance level was set at α = 0.05.
 
 The overall test resulted in a χ² value of 213.34 and a p-value of 5.53 × 10⁻⁴⁶. The null hypothesis was therefore rejected, indicating a statistically significant difference between the four versions.
 
-A Bonferroni-adjusted post-hoc analysis was then conducted. The comparison between Version A and C showed no significant difference (p = 0.589), while the comparison between the white-button group (A/C) and red-button group (B/D) was highly significant (p = 1.42 × 10⁻⁴⁵).
+A Bonferroni-adjusted post-hoc analysis was then conducted. The comparison between Versions A and C showed no significant difference (p = 0.589), while the comparison between the white-button group (A/C) and the red-button group (B/D) was highly significant (p = 1.42 × 10⁻⁴⁵).
 
 # Results & Conclusion
 
